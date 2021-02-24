@@ -1,5 +1,5 @@
 FROM alpine
 
-COPY gopath/bin/mdservice /go/bin/mdservice
+COPY gopath/bin/demo-go-app /go/bin/demo-go-app
 
-ENTRYPOINT /go/bin/mdservice
+ENTRYPOINT /go/bin/demo-go-app
